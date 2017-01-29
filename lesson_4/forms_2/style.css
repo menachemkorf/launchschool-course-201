@@ -1,0 +1,121 @@
+@import url("whitespace-reset.css");
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+form {
+  width: 600px;
+  margin: 20px auto;
+
+}
+h1 {
+  font: normal 28px Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font: bold 20px Helvetica, Arial, sans-serif;
+  padding-bottom: 25px;
+}
+
+dt {
+  padding-bottom: 10px;
+}
+
+label {
+  font: bold 16px Helvetica, Arial, sans-serif;
+  color: #666;
+}
+
+fieldset {
+  background-color: #ececec;
+  margin-bottom: 3px;
+  border-left: 5px solid #ccc;
+  padding: 28px 32px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  height: 40px;
+  width: 100%;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  padding: 0 10px;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.name dd {
+  display: inline-block;
+  width: 50%;
+}
+
+.name dd + dd {
+  padding-left: 5px;
+}
+
+.name dd:first-of-type {
+  padding-right: 5px;
+}
+
+.social {
+  display: inline-block;
+  width: 33%;
+  padding: 0 10px;
+
+}
+
+.social:first-of-type {
+  padding-left: 0;
+}
+
+.password,
+.confirm_password {
+  display: inline-block;
+  width: 50%;
+}
+
+.password {
+  padding-right: 10px;
+}
+
+.confirm_password {
+  padding-left: 10px;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  float: left;
+  margin: 3px 5px 0 0;
+}
+
+label.agree {
+  display: block;
+  overflow: hidden;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: #2e67b2;
+  color: white;
+  width: 175px;
+  height: 45px;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #6095cb;
+}

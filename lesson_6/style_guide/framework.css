@@ -1,0 +1,129 @@
+@import url("whitespace-reset.css");
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 0 25px 0;
+  font-size: 2.6em;
+}
+
+h2 {
+  margin: 0 0 25px 0;
+  font-size: 2.2em;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.8em;
+}
+
+h4 {
+  margin: 0 0 20px 0;
+  font-size: 1.5em;
+}
+
+.copy p {
+  margin: 0 0 20px 0;
+  font-size: 1em;
+  line-height: 150%;
+}
+.copy ul {
+  padding: 0 0 20px 25px;
+  list-style: disc;
+}
+
+.copy ul ul {
+  padding: 20px 0 20px 18px;
+  list-style: circle;
+}
+.copy ol {
+  padding: 0 0 20px 25px;
+  list-style: decimal;
+}
+
+.copy ol ol {
+  padding: 20px 0 20px 18px;
+  list-style: lower-latin;
+}
+
+.copy ol.roman {
+  list-style: upper-roman;
+}
+
+.copy ol.roman ol {
+  list-style: lower-roman;
+}
+
+/* columns */
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  overflow: hidden;
+}
+
+.sixth {
+  float: left;
+  width: 16.66%;
+}
+
+.fourth {
+  float: left;
+  width: 25%;
+}
+
+.third {
+  float: left;
+  width: 33.33%;
+}
+
+.half {
+  float: left;
+  width: 50%;
+}
+
+/* columns with 1% margin */
+
+.margin_row .sixth + .sixth,
+.margin_row .fourth + .fourth,
+.margin_row .third + .third,
+.margin_row .half + .half,
+.margin_row .two_third + .third,
+.margin_row .sixth + .five_sixth,
+.margin_row .sixth + .two_third,
+.margin_row .two_third + .sixth {
+  margin-left: 1%;
+}
+
+.margin_row .sixth {
+  width: 15.82%;
+}
+
+.margin_row .fourth {
+  width: 24.25%;
+}
+
+.margin_row .third {
+  width: 32.66%;
+}
+
+.margin_row .half {
+  width: 49.5%;
+}
+
+/* uneven column sizes */
+
+.margin_row .two_third {
+  float: left;
+  width: 65.66%;
+}
+
+.margin_row .five_sixth {
+  float: left;
+  width: 82.33%;
+}
+
+
+

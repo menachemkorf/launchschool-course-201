@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position</title>
+    <style type="text/css">
+      #positioned {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        margin-left: -200px;
+
+        z-index: 2;
+        width: 400px;
+        padding: 30px 15px;
+        background: #ffffcc;
+      }
+      #fixed {
+        background: rgba(0, 0, 0, .6);
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      #child {
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+
+        position: absolute;
+        top: -10px;
+        left: -10px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat molestie aliquam. Sed tortor nibh, dapibus sed nibh at, feugiat auctor tortor. Sed ac venenatis libero. Ut blandit purus libero, et tristique nisi finibus maximus. Etiam tellus erat, auctor in aliquet in, rutrum ac ex. Pellentesque diam sem, varius sit amet efficitur eget, volutpat ac turpis. Pellentesque eleifend metus et nibh egestas, vel tempus nulla condimentum. Quisque quis ante justo. Donec interdum facilisis ligula, vel venenatis ipsum suscipit nec. Phasellus imperdiet ultrices rutrum. Integer eget semper eros.</p>
+
+    <p>Fusce consectetur risus eu feugiat vehicula. Nullam hendrerit eu enim non egestas. Cras nisl ex, euismod et nisi sit amet, sollicitudin tempus orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vitae elementum lectus, quis lacinia ipsum. Fusce porttitor varius enim, eu vulputate neque. Suspendisse dictum nunc porta lobortis vulputate. Duis ultricies, ipsum ac congue vulputate, eros massa iaculis odio, accumsan accumsan sapien tellus eu eros. Pellentesque vitae ligula aliquet, sollicitudin sapien in, pretium massa. Praesent sodales augue non luctus cursus. In tincidunt risus quis elit auctor, sodales semper dui porta.</p>
+
+    <p>Vivamus vel diam vel nisi iaculis egestas. Nullam condimentum neque nulla, et convallis ipsum fringilla quis. In posuere pulvinar ligula, ac dignissim dui porta quis. Quisque bibendum porta mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris feugiat mi a arcu sollicitudin, vitae placerat ante ullamcorper. Cras faucibus ligula metus, non venenatis massa interdum quis. Maecenas rhoncus eros sed enim semper eleifend. Sed porttitor magna eu dictum porttitor. Sed eleifend ipsum at dapibus pharetra. Sed sit amet purus laoreet, imperdiet arcu sit amet, suscipit velit. Etiam fermentum, ipsum nec vulputate condimentum, orci mi lobortis arcu, at porta diam nunc at mi. Pellentesque hendrerit, felis eu hendrerit posuere, nibh augue gravida odio, et molestie sapien lorem et justo. Quisque et pulvinar arcu. Duis vitae erat dui.</p>
+
+    <p>Aliquam sollicitudin molestie erat, in imperdiet risus lacinia sed. Duis quis lectus eu dolor ultricies lobortis sit amet commodo eros. Nam et lectus et mauris viverra feugiat non a eros. Praesent lobortis condimentum faucibus. Maecenas finibus luctus massa quis dapibus. Nam venenatis finibus odio, luctus consequat magna malesuada eu. Praesent laoreet nisl vel euismod porta. Donec congue, dui et vestibulum pretium, tortor eros dictum nunc, id cursus massa urna in tortor. Sed placerat quam bibendum eros sodales, sed placerat risus ultrices. Sed pretium dictum mauris, a imperdiet erat dapibus vitae. In at ex massa. Nam lacinia, orci vel tempus consectetur, metus ex feugiat purus, volutpat finibus lectus ex vel sem. Donec risus felis, commodo et feugiat vitae, malesuada vitae felis.</p>
+
+    <div id="fixed"></div>
+    <div id="positioned">
+      <div id="child"></div>
+      I'm positioned!
+    </div>
+  </body>
+</html>

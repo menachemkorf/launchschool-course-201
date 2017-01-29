@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 28px Helvetica, Arial, sans-serif;
+}
+
+main {
+  width: 684px;
+  padding: 11px;
+  border: 2px solid #000;
+}
+
+h1 {
+  font: bold 60px Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+header p {
+  margin: 0 0 5px 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 16px 0 13px 0;
+  font: bold 18px Helvetica, Arial, sans-serif;
+  border-top: 30px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+dl {
+  margin: 0;
+  display: inline-block;
+}
+
+dt,
+dd {
+  display: inline;
+}
+
+dd {
+  margin: 0;
+}
+
+header dl:first-of-type dt {
+  font-weight: bold;
+}
+
+header dl:last-of-type {
+  float: right;
+}
+
+header {
+  border-bottom: 12px solid #000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 30px solid #000;
+}
+
+thead th {
+  text-align: right;
+}
+
+tbody th,
+tbody td {
+  border-top: 1px solid #000;
+}
+
+tbody th,
+tbody td {
+  padding-bottom: 5px;
+}
+
+tbody th {
+  text-align: left;
+}
+
+th dd {
+  font-weight: normal;
+}
+
+tr td:last-of-type {
+  text-align: right;
+  font-weight: bold;
+  margin-left: 0;
+
+
+}
+
+.indent {
+  width: 25px;
+  border: none;
+}
+
+main > dl {
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
+main > dl dd {
+  float: right;
+}
+
+main > p {
+  margin: 10px 0;
+  padding: 0 25px;
+  text-indent: -20px;
+}
+
+table:last-of-type {
+  border: none;
+  font-size: 0.75em
+}
+
+table:last-of-type thead {
+  border-bottom: 1px solid #000;
+}
+
+
+table:last-of-type tbody td {
+  border: none;
+}
+
+table:last-of-type td:last-of-type {
+  font-weight: normal;
+  text-align: left;
+}
